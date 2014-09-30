@@ -1,0 +1,125 @@
+p {
+  color: white;
+  font-family: Georgia;
+  font-variant: small-caps;
+  text-align: left;
+}
+#modal-popup {
+  height: 150px;
+  width: 150px;
+  background-color: white;
+  z-index: 250px;
+  position: fixed;
+  top: 150px;
+  bottom: 100px;
+  left: 200px;
+}
+p#Hobbies {
+  color: gray;
+  float: left;
+}
+h2.name {
+  color: white;
+  font-family: serif;
+  text-align: center;
+  font-weight: bolder;
+  font-style: normal;
+  font-variant: small-caps;
+}
+h3 {
+  color: gray;
+  font-family: Times New Roman;
+  font-variant: small-caps;
+}
+ul {
+  color: coral; 
+  text-align: justify;
+  word-spacing: 2px;
+  line-height: 100%;
+}
+body{
+  background: url('http://hawaii-tourismus.com/images/wallpaper/hawaii-wallpaper-09.jpg') 
+    no-repeat
+    5px 5px
+    white;
+}
+#body {
+  width: 100px;
+  padding: 10px;
+  border: 3px dotted gray;
+  margin: 15px;
+  float: left;
+}
+#Likes {
+  width: 400px;
+  padding: 10px;
+  margin: 10px;
+  float: left;
+}
+#Races {
+  float:right;
+}
+
+
+/* Cross Browser Compatability CSS */
+/**
+ * html5doctor.com Reset Stylesheet (Eric Meyer's Reset Reloaded + HTML5 baseline)
+ * v1.6.1 2010-09-17 | Authors: Eric Meyer & Richard Clark
+ * html5doctor.com/html-5-reset-stylesheet/
+ */
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+blockquote, q { quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after { content: ""; content: none; }
+
+ins { background-color: #ff9; color: #000; text-decoration: none; }
+
+mark { background-color: #ff9; color: #000; font-style: italic; font-weight: bold; }
+
+del { text-decoration: line-through; }
+
+abbr[title], dfn[title] { border-bottom: 1px dotted; cursor: help; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0; }
+
+input, select { vertical-align: middle; }
+
+
+/* Write your CSS styles here */
+body {
+	background: grey;
+}
+
+p {
+	font-family:arial;
+}
+
+h1 {
+	color:pink;
+	text-align:center;
+}
